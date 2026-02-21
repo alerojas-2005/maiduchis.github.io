@@ -1,4 +1,4 @@
-import ogImage from "../assets/og-image.png";
+//import ogImage from "../assets/og-image.png";
 
 export const siteConfig = {
   name: "Astro Starter Pro",
@@ -8,7 +8,7 @@ export const siteConfig = {
   locale: "en_US",
   author: "Devgelo",
   twitter: "@Devgelo",
-  ogImage: ogImage,
+ // ogImage: ogImage,
   socialLinks: {
     twitter: "https://twitter.com",
     github: "https://github.com/devgelo-labs/astro-starter-pro",
@@ -20,6 +20,6 @@ export const siteConfig = {
     { text: "Services", href: "/services" },
     { text: "Blog", href: "/blog" },
     { text: "Contact", href: "/contact" },
-    { text: "Widgets", href: "/widgets" },
+    { text: "Github", href: "https://github.com/alerojas-2005" },
   ],
 };
